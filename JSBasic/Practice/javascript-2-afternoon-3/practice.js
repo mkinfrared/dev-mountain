@@ -33,7 +33,7 @@ function first(arr, cb) {
 }
 
 // Do not edit the code below.
-var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
+let names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 
 first(names, function (firstName) {
 	console.log('The first name in names is ' + firstName);
@@ -155,14 +155,6 @@ function uniq(arr, cb) {
 	// 	result.push(objKey);
 	// }
 	// cb(result);
-
-	/* JUST
-	 TESTING
-	 GIT
-	 WORKING
-	 IN
-	WebStorm
-	 */
 }
 
 // Do not edit the code below.
@@ -210,7 +202,7 @@ function getUserById(arr, id, cb) {
 }
 
 // Do not edit the code below.
-var users = [
+let users = [
 	{
 		id     : '12d',
 		email  : 'tyler@gmail.com',
