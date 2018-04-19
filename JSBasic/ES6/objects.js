@@ -22,6 +22,7 @@ let person2 = {
 
 console.log(person);
 console.log(person2);
+console.log(person2.lastName);
 
 function craeteCar(property, value) {
 	let car       = {};
